@@ -122,23 +122,57 @@ h3{
   }
   
   
+
+
   .projects{
     @include Flexfunction(column ,space-between , center);
+    padding: 10px 0px 20px 0px ;
     font-size: 35px;
+  }
+  .project-div{
+   
+    padding: 10px 50px 20px 10px ;
+  display: flex;
+  
+  justify-content: space-between;
+
   }
   .project-div2{
    
-    padding: 10px 0px 20px 0px ;
-    @include Flexfunction(row ,space-evenly, center);
+    padding: 10px 50px 20px 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
 
   }
+  .project-div3{
+   
+    padding: 0px 50px 20px 10px ;
+    padding: 10px 50px 20px 10px ;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
   .project-details{
-    @include Flexfunction(column ,space-between , center);
+    display: flex;
+    flex-direction: column
+  }
+  .project-details2{
+    
+    display: flex;
+    flex-direction: column
+  }
+  .project-details3{
+    display: flex;
+    flex-direction: column
   }
  
-
-    
-  
   
   .piano{
     text-align: center;
