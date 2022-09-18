@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #132639;
+}
+
+em {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  color: #c6d9eb;
+}
+
+h4 {
+  text-align: center;
+  font-size: 25px;
+  color: #c6d9eb;
+}
+
+h2 {
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  color: white;
+  font-weight: 500;
+}
+
+#project-link1 {
+  color: #42afe2;
+}
+
+#project-link2 {
+  color: #42afe2;
+}
+
+.body-div {
+  min-height: 800px;
+}
+
+.heading-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  -webkit-animation: forwards ease-in;
+          animation: forwards ease-in;
+  -webkit-animation-name: runtd;
+          animation-name: runtd;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  background-color: #c6d9eb;
+}
+
+.Name {
+  -webkit-animation: runtd;
+          animation: runtd;
+  padding-left: 40px;
+  padding-right: 10px;
+  color: #132639;
+}
+
+.details {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #132639;
+}
+
+.profile-ph {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 40px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+
+.skills {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vl {
+  border-left: 6px solid #c6d9eb;
+  height: 150px;
+}
+
+.education-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Education {
+  font-size: 35px;
+}
+
+.em-detail {
+  color: #c6d9eb;
+}
+
+#highschool-id {
+  padding-left: 55px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+}
+
+.project-div2 {
+  padding: 10px 400px 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-details2 {
+  padding-left: 100px;
+}
+
+.piano {
+  text-align: center;
+}
+
+.project-details3 {
+  padding-left: 130px;
+}
+
+@-webkit-keyframes runtd {
+  0% {
+    left: 100%;
+  }
+  50% {
+    left: 0%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+@keyframes runtd {
+  0% {
+    left: 100%;
+  }
+  50% {
+    left: 0%;
+  }
+  100% {
+    left: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */

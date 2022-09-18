@@ -1,0 +1,162 @@
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #132639;
+  }
+  em{
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  p{
+    font-size: 20px;
+    color: #c6d9eb;
+  }
+h4{
+    text-align: center;
+    font-size: 25px;
+    color: #c6d9eb;
+}
+h2{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    font-weight: 500;
+}
+#project-link1{
+
+    color: #42afe2;
+}
+#project-link2{
+    color: #42afe2;
+}
+
+  .body-div{
+    min-height: 800px;
+  }
+
+
+@mixin Flexfunction( $direction , $justifyContent,$align ) {
+    display:flex;
+    flex-direction:  $direction;
+    justify-content:$justifyContent ;
+ align-items:$align ;
+}
+
+.heading-div{
+    
+    
+    @include Flexfunction(row ,space-between , center);
+    position: relative;
+    animation: forwards ease-in ;
+    animation-name: runtd;
+    animation-duration: 5s;
+    background-color: #c6d9eb ;
+}
+
+
+.profile-ph-div{
+
+}
+.Name{
+    animation: runtd;
+
+    padding-left:40px ;
+    padding-right: 10px;
+ color: #132639;
+}
+.details{
+    padding-left:10px ;
+    padding-right: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #132639;
+}
+
+.profile-ph{
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-right: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center right;
+   
+}
+.skills{
+    padding: 30px 20px ;
+    @include Flexfunction(row ,space-between , center);
+}
+
+.vl {
+    border-left: 6px solid #c6d9eb;
+    height: 150px;
+  }
+  .education-div{
+    @include Flexfunction(row ,space-between , center);
+   
+  }
+  .education-div2{
+   
+    @include Flexfunction(column ,space-between , center);
+  }
+  .Education{
+    font-size: 35px;
+  }
+  .em-detail{
+    color: #c6d9eb;
+  }
+  #highschool-id{
+    padding-left: 55px;
+  }
+  .projects{
+    @include Flexfunction(column ,space-between , center);
+    font-size: 35px;
+  }
+  .project-div2{
+    padding: 10px 400px 20px 100px ;
+    @include Flexfunction(row ,space-between , center);
+
+  }
+  .project-details{
+    @include Flexfunction(column ,space-between , center);
+  }
+  .project-details2{
+    padding-left: 100px;
+    
+  
+  }
+  .piano{
+    text-align: center;
+  }
+  .project-details3{
+    padding-left: 130px;
+  
+  }
+
+
+  @keyframes runtd {
+    0% {
+        left:100%;
+    }
+
+    50% {
+        left: 0%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
