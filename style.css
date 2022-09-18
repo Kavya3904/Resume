@@ -52,6 +52,8 @@ h3 {
 
 .heading-div {
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -97,6 +99,8 @@ h3 {
 .skills {
   padding: 30px 20px;
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -109,13 +113,17 @@ h3 {
 
 .education-div {
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .education-div2 {
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -129,12 +137,10 @@ h3 {
   color: #c6d9eb;
 }
 
-#highschool-id {
-  padding-left: 55px;
-}
-
 .projects {
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -142,30 +148,26 @@ h3 {
 }
 
 .project-div2 {
-  padding: 10px 400px 20px 100px;
+  padding: 10px 0px 20px 0px;
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .project-details {
   display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.project-details2 {
-  padding-left: 100px;
-}
-
 .piano {
   text-align: center;
-}
-
-.project-details3 {
-  padding-left: 130px;
 }
 
 @-webkit-keyframes runtd {

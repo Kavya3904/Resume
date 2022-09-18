@@ -49,6 +49,8 @@ h3{
 
 @mixin Flexfunction( $direction , $justifyContent,$align ) {
     display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
     flex-direction:  $direction;
     justify-content:$justifyContent ;
  align-items:$align ;
@@ -105,7 +107,7 @@ h3{
     height: 150px;
   }
   .education-div{
-    @include Flexfunction(row ,space-between , center);
+    @include Flexfunction(row ,space-evenly , center);
    
   }
   .education-div2{
@@ -118,33 +120,30 @@ h3{
   .em-detail{
     color: #c6d9eb;
   }
-  #highschool-id{
-    padding-left: 55px;
-  }
+  
+  
   .projects{
     @include Flexfunction(column ,space-between , center);
     font-size: 35px;
   }
   .project-div2{
-    padding: 10px 400px 20px 100px ;
-    @include Flexfunction(row ,space-between , center);
+   
+    padding: 10px 0px 20px 0px ;
+    @include Flexfunction(row ,space-evenly, center);
 
   }
   .project-details{
     @include Flexfunction(column ,space-between , center);
   }
-  .project-details2{
-    padding-left: 100px;
+ 
+
     
   
-  }
+  
   .piano{
     text-align: center;
   }
-  .project-details3{
-    padding-left: 130px;
-  
-  }
+ 
 
 
   @keyframes runtd {
